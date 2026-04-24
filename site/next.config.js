@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'Alera Kasm',
+    description: 'Not the official store for Kasm supported workspaces.',
+    icon: 'https://authentik-media.alera.casa/media/public/App_Kasm.svg',
+    listUrl: 'https://bioncidonkey.githib.io/kasm-registry/',
+    contactUrl: 'https://github.com/bionicdonkey/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,

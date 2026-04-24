@@ -3,13 +3,7 @@
   "docker_registry": "https://ghcr.io/",
   "image_src": "OrcaSlicer.png",
   "run_config": {
-    "entrypoint": [
-      "/kasminit"
-    ],
-    "user": 1000,
-    "environment": {
-      "HOME": "/home/kasm-user"
-    }
+    "hostname": "kasm"
   },
   "exec_config": {},
   "categories": [
@@ -23,17 +17,17 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "image": "ghcr.io/bionicdonkey/kasm-orcaslicer:latest",
       "uncompressed_size_mb": 3220
     },
     {
       "version": "1.17.x",
-      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "image": "ghcr.io/bionicdonkey/kasm-orcaslicer:latest",
       "uncompressed_size_mb": 3220
     },
     {
       "version": "1.18.x",
-      "image": "lscr.io/linuxserver/orcaslicer:latest",
+      "image": "ghcr.io/bionicdonkey/kasm-orcaslicer:latest",
       "uncompressed_size_mb": 3220
     }
   ]

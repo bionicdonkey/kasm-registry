@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Alera Kasm',
     description: 'Not the official store for Kasm supported workspaces.',
     icon: 'https://authentik-media.alera.casa/media/public/App_Kasm.svg',
-    listUrl: 'https://bioncidonkey.github.io/kasm-registry/',
+    listUrl: 'https://bionicdonkey.github.io/kasm-registry/',
     contactUrl: 'https://github.com/bionicdonkey/kasm-registry/issues',
   },
   reactStrictMode: true,
